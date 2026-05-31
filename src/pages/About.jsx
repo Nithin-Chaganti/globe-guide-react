@@ -13,6 +13,11 @@ export const About = () => {
         {countryFacts.map((country) => {
           const { id, countryName, capital, population, interestingFact } =
             country;
+          const displayPopulation =
+            typeof population === "number"
+              ? population.toLocaleString("en-US")
+              : population;
+
           return (
             <div className="card" key={id}>
               <div className="container-card bg-blue-box">
@@ -23,7 +28,7 @@ export const About = () => {
                 </p>
                 <p>
                   <span className="card-description">Population:</span>
-                  {population}
+                  {displayPopulation}
                 </p>
                 <p>
                   <span className="card-description">Interesting Fact:</span>

@@ -1,21 +1,48 @@
-const Contact = ()=>
-{
-    return(
-        <section className="section-contact">
-            <div className="container">
-                <h1 className="container-title">Contact</h1>
-                <hr />
-                <div className="contact-wrapper">
-                    <form>
-                        <input type="text" name="name" placeholder="your name" />
-                        <input type="email" name="email" placeholder="your email" />
-                        <textarea name="message" rows="6" placeholder="your message" />
-                        <button type="submit">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-    )
+export const Contact = () => {
+  const handleFormSubmit = (formData) => {
+    // console.log(formData.entries());
+    const formInputData = Object.fromEntries(formData.entries());
+    console.log(formInputData);
+  };
 
-}
-export default Contact
+  return (
+    <section className="section-contact">
+      <h2 className="container-title">Contact Us</h2>
+
+      <div className="contact-wrapper container">
+        <form action={handleFormSubmit}>
+          <input
+            type="text"
+            className="form-control"
+            placeholder="enter your name"
+            name="username"
+            required
+            autoComplete="off"
+          />
+
+          <input
+            type="email"
+            className="form-control"
+            placeholder="Enter you email"
+            name="email"
+            required
+            autoComplete="off"
+          />
+
+          <textarea
+            className="form-control"
+            rows="10"
+            placeholder="Enter your message"
+            name="message"
+            required
+            autoComplete="off"
+          ></textarea>
+
+          <button type="submit" value="send">
+            Send
+          </button>
+        </form>
+      </div>
+    </section>
+  );
+};

@@ -7,6 +7,13 @@
     "interestingFact": "There are 195 countries in the world today, including 193 United Nations member states and 2 observer states."
   },
   {
+    "id": 9,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": 1393409038,
+    "interestingFact": "India is home to the Taj Mahal, one of the most recognized landmarks in the world."
+  },
+  {
     "id": 2,
     "countryName": "Nepal",
     "capital": "Kathmandu",
@@ -54,5 +61,33 @@
     "capital": "Beijing",
     "population": 1444216107,
     "interestingFact": "The Great Wall of China is visible from space on rare occasions."
+  },
+  {
+    "id": 10,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "population": 38246108,
+    "interestingFact": "Canada has the longest coastline of any country in the world."
+  },
+  {
+    "id": 11,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": 125836021,
+    "interestingFact": "Japan has more than 6,800 islands and is famous for its bullet trains."
+  },
+  {
+    "id": 12,
+    "countryName": "South Africa",
+    "capital": "Pretoria",
+    "population": 60041996,
+    "interestingFact": "South Africa has three capital cities, each serving a different branch of government."
+  },
+  {
+    "id": 13,
+    "countryName": "Mexico",
+    "capital": "Mexico City",
+    "population": 130262216,
+    "interestingFact": "Mexico is home to many ancient ruins, including the famous city of Chichen Itza."
   }
 ]
