@@ -5,14 +5,14 @@ import Footer from "../../components/ui/Footer";
 
 const AppLayout = () => {
   return (
-    <>
+    <div className="app-layout">
       <Header />
 
       <main>
         <Outlet />
       </main>
       <Footer />
-    </>
+    </div>
   );
 };
 

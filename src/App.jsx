@@ -29,6 +29,10 @@ const router = createBrowserRouter([
         path: "country",
         element: <Country />,
       },
+      {
+        path: "*",
+        element: <ErrorPage />,
+      },
       
     ],
   },
