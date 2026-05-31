@@ -233,6 +233,8 @@ nav ul li a.active {
 /* About Section  */
 
 .section-about {
+  width: min(100%, 132rem);
+  padding: 0 3.2rem;
   margin: 0 auto 9rem auto;
 }
 

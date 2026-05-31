@@ -2,7 +2,7 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AppLayout from "./components/layout/AppLayout";
 import Home from "./pages/Home";
-import About from "./pages/About";
+import { About } from "./pages/About";
 import Contact from "./pages/Contact";
 import Country from "./pages/Country";
 import ErrorPage from "./pages/ErrorPage";
